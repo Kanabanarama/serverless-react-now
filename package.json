@@ -1,0 +1,17 @@
+{
+  "name": "serverless-react-now",
+  "version": "0.1.0",
+  "author": "(Kana) René Lantzsch",
+  "private": true,
+  "scripts": {
+    "parcel:dev": "./node_modules/.bin/parcel src/index.html",
+    "parcel:watch": "./node_modules/.bin/parcel watch src/index.html",
+    "parcel:build": "./node_modules/.bin/parcel build src/index.html"
+  },
+  "dependencies": {
+    "now": "^14.0.0",
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}

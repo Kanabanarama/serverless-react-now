@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "nodejs-express",
+    "builds": [
+    	{ "src": "public/*.html", "use": "@now/static" },
+    	{ "src": "public/*.js", "use": "@now/static" },
+      { "src": "public/*.css", "use": "@now/static" }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "/public/$1" }
+    ]
+}
