@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 import ThresholdTest from './ThresholdTest';
-import AreaTest from './StockTest';
+import AreaTest from './AreaTest';
 import PieTest from './PieTest';
 
 export default class Dashboard extends Component {

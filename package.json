@@ -4,7 +4,7 @@
   "author": "(Kana) René Lantzsch",
   "private": true,
   "scripts": {
-    "parcel:dev": "./node_modules/.bin/parcel src/index.html",
+    "parcel:dev": "./node_modules/.bin/parcel src/index.html --hmr-port 33080",
     "parcel:watch": "./node_modules/.bin/parcel watch src/index.html",
     "parcel:build": "./node_modules/.bin/parcel build src/index.html"
   },
